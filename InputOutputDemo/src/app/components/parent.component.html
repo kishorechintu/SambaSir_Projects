@@ -1,0 +1,7 @@
+<child
+  [id]="x.p_id"
+  [name]="x.p_name"
+  [cost]="x.p_cost"
+  (send)="receiveData($event)"
+  *ngFor="let x of data"
+></child>
